@@ -6,11 +6,14 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
     <title>Meu Perfil</title>
   </head>
   <body>
     <header>
-      <div id="header_content">
+      <div id="header_content" class="flex">
         <div id="titulo">
           <h1>Sabrina S. Lima</h1>
         </div>
@@ -30,7 +33,7 @@
     </header>
 
     <main>
-      <section id="contact">
+      <section id="contact" class="flex">
         <form action="#" method="submit">
           <label for="nome">Nome: </label>
           <input
@@ -73,7 +76,7 @@
           <button type="submit">Enviar</button>
         </form>
 
-        <article id="mapa">
+        <section id="mapa" class="flex_start">
           <div id="endereco">
             <p>Av. Paulista, 100</p>
             <p>São Paulo - SP</p>
@@ -88,22 +91,24 @@
             aria-hidden="false"
             tabindex="0"
           ></iframe>
-        </article>
+        </section>
       </section>
     </main>
 
     <footer>
-      <section id="redes_sociais">
-        <a href="">
-          <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-        </a>
-        <a href="">
-          <img src="assets/img/github.svg" alt="Github" />
-        </a>
-        <a href="">
-          <img src="assets/img/instagram.svg" alt="Instagram" />
-        </a>
-      </section>
+        <section id="redes_sociais">
+
+            <a href="">
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+            </a>
+            <a href="">
+                <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
+            </a>
+            <a href="">
+                <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+            </a>
+
+        </section>
       <h3>Feito com 🧡 por Sabrina S. Lima - 2025</h3>
     </footer>
   </body>
