@@ -43,4 +43,4 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal](https://sanmisabrina.github.io/Projeto_Portifolio/)
+- [Portfólio Pessoal](https://sabrinasanmi.github.io/Projeto_Portifolio/)
