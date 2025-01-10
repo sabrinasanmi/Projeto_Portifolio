@@ -26,7 +26,6 @@
 
     --white: #FFFFFF;
     --red: #FF0000;
-
 }
 
 html {
@@ -36,6 +35,7 @@ html {
 
 body {
     color: var(--eclipse);
+    background-color: var(--eclipse);
 }
 
 /* Definindo as configurações de títulos e paragrafo */
@@ -131,10 +131,12 @@ p{
 
 }
 
-.img_profile{
-    width: 200px;
+#img_profile{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        object-fit: cover;
 }
- 
 /* Estilização da Seção Video */
 
 #video{
